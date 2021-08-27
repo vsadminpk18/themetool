@@ -1,0 +1,265 @@
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 6px;
+}
+*::-webkit-scrollbar-track {
+    background: var(--scroll-bg);
+}
+*::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-color);
+    border-radius: 20px;
+}
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scroll-color) var(--scroll-bg);
+}
+.filter-area .filter-action-buttons .btn, .filter-area .filter-action-buttons div#driver-popover-item .driver-popover-footer button, div#driver-popover-item .driver-popover-footer .filter-area .filter-action-buttons button {
+    background-color: #1c2126;
+    color:#ebebeb;
+}
+.btn.btn-default, div#driver-popover-item .driver-popover-footer button.btn-default {
+    background-color:#F2B441;
+    color:white;
+}
+.btn btn-xs btn-default{
+    background-color:#F2B441;
+    color:white;
+}
+.popover-body {
+    background: #F2B441;
+    color: #ebebeb;
+}
+.list-sidebar .list-filters input {
+    background: #1c2126;
+    color: #ebebeb;
+}
+.checkbox .label-area{
+    color:#EC552A;
+}
+.grid-heading-row{
+    border-bottom: 0px;
+}
+.kanban .kanban-title-area .kanban-card-creation {
+    color:#ffffff;
+}
+
+.list-row-container .active .hover hover{
+    border-bottom: 0px solid var(--border-color);
+	border-top: 0px solid var(--border-color);
+}
+.list-sidebar .list-filters input .active .hover hover{
+    background-color:#EC552A;
+    color:white;
+}
+.kanban .kanban-column .kanban-card .kanban-card-body {
+background-color: #ca2660;
+border: 1px solid #ca2660;
+}
+.form-in-grid{
+   background: #3B3E45;
+}
+.form-grid {
+border: 0px;
+}
+.list-sidebar .list-sidebar-button {
+    background-color: #1c2126;
+}
+.btn .btn-secondary .btn-sm-pull-right .grid-insert-row-below .hidden-xs{
+    background-color: #EC552A;
+
+}
+
+
+.form-links .document-link .document-link-badge, .form-links .document-link .report-link-badge{
+    background-color:#EC552A;
+    color:white;
+}
+.form-links .document-link .btn-new {
+    background-color:#EC552A;
+    color:white;
+}
+
+.frappe-control .control-value {
+    background-color: #1c2126;
+    color:white;
+}
+
+.awesomplete .input-with-feedback .form-control-bold{
+    background-color: red;
+
+    color:white;
+
+}
+.list-row-container {
+
+}
+.btn{
+    background-color:#EC552A;
+    color:white;
+}
+.btn btn-xs btn-secondary-dark action-btn{
+    background-color:#EC552A;
+    color:white;
+}
+.btn .btn-xs .btn-secondary-dark .action-btn{
+    background-color:#EC552A;
+    color:white;
+}
+.standard-sidebar .standard-sidebar-section .standard-sidebar-label, .desk-sidebar .standard-sidebar-section .standard-sidebar-label, .search-dialog .search-results .search-sidebar .standard-sidebar-section .standard-sidebar-label {
+color:white;
+}
+.widget.shortcut-widget-box .indicator-pill{
+    background-color:#F2B441;
+    color:white;
+}
+.widget.links-widget-box .link-item .indicator-pill {
+    background-color:#F2B441;
+    color:white;
+}
+.frappe-control .address-box {
+    background-color: #1c2126;
+    color:white;
+}
+.input-with-feedback .form-control-bold{
+    background-color: red;
+    color:white;
+
+}
+.control-label .grid-heading-row {
+    color:white;
+}
+.awesomplete .input-with-feedback {
+    background-color: #1c2126;
+    color:white;
+
+}
+.form-control {
+    background:3B3E45;
+    color:white;
+
+}
+.indicator-pill.gray, .indicator-pill-right.gray, .indicator-pill-round.gray, .indicator-pill.grey, .indicator-pill-right.grey, .indicator-pill-round.grey {
+    background-color:#F2B441;
+    color:white;
+}
+.recent-item.notification-item {
+    background:#2c436b; 
+}
+.modal .modal-content {
+    background:#1c2126;
+    color:white;
+}
+search-bar .awesomplete ul {
+    background:#292C33;
+}
+.awesomplete>ul>li:hover, .awesomplete>ul>li[aria-selected=true] {
+    background-color:#A62317;
+    color:white;
+}
+#navbar-breadcrumbs li.disabled a {
+    color:white;
+}
+
+.navbar-breadcrumbs li.disabled a {
+    color:white;
+}
+
+.btn btn-primary btn-sm primary-action{
+    background-color:#A62317;
+    color:white;
+}
+.search-bar .awesomplete input {
+    background-color: var(--bg-color)
+}
+.modal-backdrop{
+    background-color: #2c436b !important;
+}
+.widget .widget-head .widget-title .widget-label {
+    font-size: var(--text-base);
+    color: #176ed8;
+}
+.comment-box .comment-input-header, .form-dashboard-section .section-head, .form-section .section-head, .head-title {
+    font-size: var(--text-base);
+    font-weight: 600;
+}
+.comment-box .comment-input-container .ql-editor {
+    border: 1px solid var(--border-color);
+}
+
+.static-area{
+    color:white;
+}
+.grid-heading-row{
+    background:#EC552A;
+}
+.duration-picker .duration-input {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+}
+.control-label {
+    color:white;
+    font-weight: 500;
+}
+.control-label .red{
+    color:white;
+    font-weight: 500;
+}
+
+[data-theme="dark"] {
+    --card-bg-hover:#EC552A;
+    --strong-color:white;
+    --text-light:white;
+    --bg-blue:#EC552A;
+    --primary:#EC552A;
+    --fg-hover-color: #EC552A;
+    --fg-hover-text-color: white;
+    --navbar-bg: #3B3E45;
+    --sidebar-select-color: #EC552A;
+    --card-bg: #3B3E45;
+    --bg-color: #292C33;
+    --disabled-control-bg: var(--gray-900);
+    --border-color: #1c2126;
+    --margin-lg : 15px;
+    --text-bold: 600;
+    --scroll-bg: #161a1f;
+    --scroll-color: #1c2126;
+}
+
+[data-theme="light"] {
+    --strong-color:white;
+    --list-row-container-hover-background:#EC552A;
+    --list-row-container-active-background:#EC552A;
+    --list-row-container-hover-color:white;
+    --list-row-container-active-color:white;
+    --primary:#EC552A;
+    --widget-background:#EC552A;
+    --links-widget-box-background:#EC552A;
+    --link-item-background:#EC552A;
+    --indicator-pill-background:#EC552A;
+    --bg-yellow:#EC552A;
+    --awesomplete-background-color: #1b3954;
+    --input-background-color:#1b3954;
+    --search-bar-background-color: #292C33;
+    --bg-light-gray: #b1b1b1;
+    --navbar-bg: #3B3E45;
+    --fg-hover-color: #EC552A;
+    --fg-color: #3B3E45;
+    --text-color: #ebebeb;
+    --text-light: #ebebeb;
+    --card-bg-hover: #EC552A;
+    --card-hover-background-color:#EC552A;
+    --card-bg: #3B3E45;
+    --bg-color: #292C33;
+    --text-bold: 600;
+    --control-bg : #373B40;
+    --control-bg-on-gray: #d4dcea;
+    --disabled-control-bg: #f2f5fa;
+    --heading-color: #ebebeb;
+    --border-color:#e3e8f1;
+    --avatar-frame-bg: #dde2ea;
+    --margin-lg: 15px;
+    --sidebar-select-color: #EC552A;
+    --awesomplete-hover-bg: #d4dcea;
+    --scroll-bg: #eef1f5;
+    --scroll-color: #d9dfe6;
+}
